@@ -46,5 +46,6 @@ def predict():
 
     return jsonify(prediction = np.round(prediction[0],2))
 
-if __name__ == '__main__':
-    app.run(debug=True)
+# commented out for deploy in render cloud services
+# if __name__ == '__main__':
+#     app.run(debug=True)
