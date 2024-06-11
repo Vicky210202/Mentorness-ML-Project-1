@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salary Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='mentorness.jpeg') }}" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <h1>Salary Prediction Dashboard</h1>
+        <div class="form-group">
+            <div class="label">
+                <label for="first_name">First Name: <span style="color: red;">*</span></label>
+            </div>
+            <input type="text" id="first_name" class="input-field" required>
+        </div>
+
+        <div class="form-group">
+            <div class="label">
+                <label for="last_name">Last Name: <span style="color: red;">*</span></label>
+            </div>
+            <input type="text" id="last_name" class="input-field" required>
+        </div>
+
+        <div class="form-group">
+            <div class="label">
+                <label for="sex">Sex: <span style="color: red;">*</span></label>
+            </div>
+            <select id="sex" class="input-field" required>
+                <option value="M">Male</option>
+                <option value="F">Female</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <div class="label">
+                <label for="doj">Date of Joining: <span style="color: red;">*</span></label>
+            </div>
+            <input type="date" id="doj" class="input-field" required>
+        </div>
+
+        <div class="form-group">
+            <div class="label">
+                <label for="current_date">Current Date: <span style="color: red;">*</span></label>
+            </div>
+            <input type="date" id="current_date" class="input-field" required>
+        </div>
+
+        <div class="form-group">
+            <div class="label">
+                <label for="designation">Designation: <span style="color: red;">*</span></label>
+            </div>
+            <select id="designation" class="input-field" required>
+                <option value="Analyst">Analyst</option>
+                <option value="Senior Analyst">Senior Analyst</option>
+                <option value="Associate">Associate</option>
+                <option value="Manager">Manager</option>
+                <option value="Senior Manager">Senior Manager</option>
+                <option value="Director">Director</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <div class="label">
+                <label for="age">Age: <span style="color: red;">*</span></label>
+            </div>
+            <input type="number" id="age" class="input-field" required>
+        </div>
+
+        <div class="form-group">
+            <div class="label">
+                <label for="unit">Unit: <span style="color: red;">*</span></label>
+            </div>
+            <select id="unit" class="input-field" required>
+                <option value="Marketing">Marketing</option>
+                <option value="Finance">Finance</option>
+                <option value="Web">Web</option>
+                <option value="Management">Management</option>
+                <option value="Operations">Operations</option>
+                <option value="IT">IT</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <div class="label">
+                <label for="leaves_used">Leaves Used: <span style="color: red;">*</span></label>
+            </div>
+            <input type="number" id="leaves_used" class="input-field" required>
+        </div>
+
+        <div class="form-group">
+            <div class="label">
+                <label for="leaves_remaining">Leaves Remaining: <span style="color: red;">*</span></label>
+            </div>
+            <input type="number" id="leaves_remaining" class="input-field" required>
+        </div>
+
+        <div class="form-group">
+            <div class="label">
+                <label for="ratings">Ratings: <span style="color: red;">*</span></label>
+            </div>
+            <input type="number" id="ratings" class="input-field" required>
+        </div>
+
+        <div class="form-group">
+            <div class="label">
+                <label for="past_exp">Past Experience (years): <span style="color: red;">*</span></label>
+            </div>
+            <input type="number" id="past_exp" class="input-field" required>
+        </div>
+
+        <input type="button" value="Predict" class="input-button" onclick="makePrediction()">
+        <h2 id="result"></h2>
+    </div>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
