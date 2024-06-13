@@ -4,7 +4,7 @@ Welcome to the Machine Learning Internship project focused on predicting the sal
 
 ## 🌐 Website
 
-You can access the deployed application [here](https://salary-prediction-api-4n6g.onrender.com).
+You can access the deployed application [here](https://salary-prediction-api-4n6g.onrender.com).(please wait 2 to 3 minutes) 
 
 ## 📂 Repository Structure
 
