@@ -85,7 +85,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 🙏 Acknowledgments
 
-This project was completed as part of a machine learning internship focused on predicting salaries of data professionals. Special thanks to the internship providers for giving me this woonderful oppurtunity
+This project was completed as part of a machine learning internship focused on predicting salaries of data professionals. Special thanks to the internship providers for giving me this wonderful oppurtunity.
 
 ---
 
