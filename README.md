@@ -1,10 +1,11 @@
+---
 # 💰 Salary Predictions of Data Professions 
 
 Welcome to the Machine Learning Internship project focused on predicting the salaries of data professionals. This repository contains the code, data, and documentation for building a predictive model for salaries in the data profession domain.
 
 ## 🌐 Website
 
-You can access the deployed application [here](https://salary-prediction-api-4n6g.onrender.com).(please wait 2 to 3 minutes) 
+You can access the deployed application [here](https://salary-prediction-api-4n6g.onrender.com). (Please wait 2 to 3 minutes) 
 
 ## 📂 Repository Structure
 
@@ -76,8 +77,6 @@ I recommend gaining experience in data related field will secure a good paying r
 ![Figures](Figures/Slide11.PNG)
 ![Figures](Figures/Slide12.PNG)
 ![Figures](Figures/Slide13.PNG)
-
-
 
 ## 🤝 Contributing
 
