@@ -65,7 +65,7 @@ The most influencing features of salary of the data professionals are
 - Designation
 I recommend gaining experience in data related field will secure a good paying role
 
-## Project Presentation 
+## 💻 Project Presentation 
 ![Figures](Figures/Slide3.PNG)
 ![Figures](Figures/Slide4.PNG)
 ![Figures](Figures/Slide5.PNG)
