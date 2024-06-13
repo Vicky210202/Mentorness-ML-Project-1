@@ -63,6 +63,7 @@ The most influencing features of salary of the data professionals are
 - Age
 - {Date of joining, Current date, Past experience} - Overall Experience
 - Designation
+
 I recommend gaining experience in data related field will secure a good paying role
 
 ## 💻 Project Presentation 
